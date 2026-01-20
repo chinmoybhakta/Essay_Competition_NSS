@@ -76,6 +76,7 @@ class _WritingScreenState extends State<WritingScreen> {
                   // 📝 লেখার জায়গা
                   Expanded(
                     child: TextField(
+                      style: TextStyle(color: Colors.black54),
                       controller: essayController,
                       maxLines: null,
                       expands: true,
@@ -128,6 +129,7 @@ class _WritingScreenState extends State<WritingScreen> {
                                     );
 
                                 showDialog(
+                                  // ignore: use_build_context_synchronously
                                   context: context,
                                   barrierDismissible: false,
                                   builder: (_) => AlertDialog(

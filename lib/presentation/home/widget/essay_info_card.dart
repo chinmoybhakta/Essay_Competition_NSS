@@ -21,6 +21,7 @@ class EssayInfoCard extends StatelessWidget {
         border: Border.all(color: Colors.orange.shade300, width: 1.5),
         boxShadow: [
           BoxShadow(
+            // ignore: deprecated_member_use
             color: Colors.orange.withOpacity(0.2),
             blurRadius: 10,
             offset: const Offset(0, 6),
@@ -123,7 +124,7 @@ class EssayInfoCard extends StatelessWidget {
           Expanded(
             child: Text(
               text,
-              style: const TextStyle(fontSize: 14),
+              style: const TextStyle(fontSize: 14, color: Colors.black54, fontWeight: FontWeight.bold),
             ),
           ),
         ],
@@ -133,6 +134,7 @@ class EssayInfoCard extends StatelessWidget {
 }
 
 // 🔹 নিয়ম চিপ উইজেট
+// ignore: camel_case_types
 class _ruleChip extends StatelessWidget {
   final IconData icon;
   final String label;
@@ -147,6 +149,7 @@ class _ruleChip extends StatelessWidget {
         label,
         style: const TextStyle(
           fontWeight: FontWeight.bold,
+          color: Colors.redAccent,
         ),
       ),
       backgroundColor: Colors.yellow.shade100,

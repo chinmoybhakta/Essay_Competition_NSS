@@ -268,7 +268,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
             const SizedBox(height: 30),
 
-            Text("☎️ যোগাযোগ:\n মিঠুন চন্দ্র দাস মিঠু: +880-1533086994 (Bkash/Nagad/Rocket)\n অমর্ত্য চৌধুরী বর্ন: +880 1706-662814 (Bkash/Nagad/Rocket)\n ব্যাংক একাউন্ট: A/C Number: 1503105176791001, A/C Name: AMARTYA CHOWDHURY BORNO (BRAC Bank PLC, Moghbazar]\n আয়োজনে: নিটার সনাতনী সংঘ, নয়ারহাট, সাভার।", style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500),),
+            Text("☎️ যোগাযোগ:\n মিঠুন চন্দ্র দাস মিঠু: +880-1533086994 (Bkash/Nagad/Rocket)\n অমর্ত্য চৌধুরী বর্ন: +880 1706-662814 (Bkash/Nagad/Rocket)\n ব্যাংক একাউন্ট: A/C Number: 1503105176791001, A/C Name: AMARTYA CHOWDHURY BORNO (BRAC Bank PLC, Moghbazar]\n আয়োজনে: নিটার সনাতনী সংঘ, নয়ারহাট, সাভার।", style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.black87),),
             const SizedBox(height: 10),
             Text("Copyright @2025-2026 CHINMOY BHAKTA All Rights Reserved", style: TextStyle(fontSize: 12, color: Colors.blueGrey)),
 

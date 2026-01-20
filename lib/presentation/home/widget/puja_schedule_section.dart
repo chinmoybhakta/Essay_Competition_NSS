@@ -22,7 +22,7 @@ class PujaScheduleSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          GestureDetector(onTap: ()=>Navigator.pop(context),child: Icon(Icons.arrow_back)),
+          GestureDetector(onTap: ()=>Navigator.pop(context),child: Icon(Icons.arrow_back, color: Colors.black54,)),
 
           // 🔱 Title
           const Center(

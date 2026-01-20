@@ -8,7 +8,7 @@ class BackgroundMusicService {
     await _player.setVolume(0.3);
 
     await _player.play(
-      UrlSource('assets/song/song_web.wav'),
+      UrlSource('assets/song/song.mp3'),
     );
   }
 
