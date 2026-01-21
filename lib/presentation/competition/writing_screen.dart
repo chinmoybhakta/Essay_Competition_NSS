@@ -51,7 +51,7 @@ class _WritingScreenState extends State<WritingScreen> {
             color: Colors.yellow.shade100,
             child: const Text(
               "অংশগ্রহণকারী: নিবন্ধিত শিক্ষার্থী",
-              style: TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black54),
             ),
           ),
 

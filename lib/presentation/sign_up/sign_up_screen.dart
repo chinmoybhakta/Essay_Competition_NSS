@@ -102,6 +102,7 @@ class _SignUpPageState extends ConsumerState<SignUpPage> {
 
               // 👤 নাম
               TextFormField(
+                style: TextStyle(color: Colors.black54),
                 controller: nameController,
                 decoration: inputDecoration("পূর্ণ নাম", Icons.person),
                 validator: (value) => value!.isEmpty ? "নাম আবশ্যক" : null,
@@ -111,6 +112,7 @@ class _SignUpPageState extends ConsumerState<SignUpPage> {
 
               // 🆔 আইডি
               TextFormField(
+                style: TextStyle(color: Colors.black54),
                 controller: idController,
                 decoration: inputDecoration("ছাত্র আইডি", Icons.badge),
                 validator: (value) => value!.isEmpty ? "আইডি আবশ্যক" : null,
@@ -120,6 +122,7 @@ class _SignUpPageState extends ConsumerState<SignUpPage> {
 
               // 📧 ইমেইল
               TextFormField(
+                style: TextStyle(color: Colors.black54),
                 controller: emailController,
                 keyboardType: TextInputType.emailAddress,
                 decoration: inputDecoration("ইমেইল", Icons.email),
@@ -134,6 +137,7 @@ class _SignUpPageState extends ConsumerState<SignUpPage> {
 
               // 🎓 ব্যাচ
               TextFormField(
+                style: TextStyle(color: Colors.black54),
                 controller: batchController,
                 decoration: inputDecoration("ব্যাচ", Icons.school),
                 validator: (value) => value!.isEmpty ? "ব্যাচ আবশ্যক" : null,
@@ -143,6 +147,7 @@ class _SignUpPageState extends ConsumerState<SignUpPage> {
 
               // 🏫 বিভাগ
               TextFormField(
+                style: TextStyle(color: Colors.black54),
                 controller: departmentController,
                 decoration: inputDecoration("বিভাগ", Icons.account_balance),
                 validator: (value) => value!.isEmpty ? "বিভাগ আবশ্যক" : null,
@@ -152,6 +157,7 @@ class _SignUpPageState extends ConsumerState<SignUpPage> {
 
               // 📱 মোবাইল
               TextFormField(
+                style: TextStyle(color: Colors.black54),
                 controller: mobileController,
                 keyboardType: TextInputType.phone,
                 decoration: inputDecoration("মোবাইল নম্বর", Icons.phone),
